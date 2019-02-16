@@ -10,7 +10,5 @@
 
   "image_name": "cyberdojofoundation/rust_test",
 
-  "filename_extension" : ".rs",
-
-  "runner_choice": "stateless"
+  "filename_extension" : ".rs"
 }
