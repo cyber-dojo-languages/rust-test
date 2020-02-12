@@ -1,5 +1,5 @@
 [package]
-name = "cyber_dojo"
+name = "hiker"
 version = "0.1.0"
 authors = ["sandbox"]
 edition = "2018"
