@@ -3,12 +3,14 @@
   "display_name": "Rust, test",
 
   "visible_filenames": [
-    "hiker.rs",
-    "hiker_test.rs",
+    "src/lib.rs",
+    "Cargo.toml",
     "cyber-dojo.sh"
   ],
 
   "image_name": "cyberdojofoundation/rust_test",
+
+  "hidden_filenames": [ "target/.*", "Cargo.lock" ],
 
   "filename_extension" : ".rs"
 }
