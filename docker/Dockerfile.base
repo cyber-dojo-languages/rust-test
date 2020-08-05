@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/rust:0286f90
+FROM  cyberdojofoundation/rust:b735a53
 LABEL maintainer=jon@jaggersoft.com
 
 COPY red_amber_green.rb /usr/local/bin
