@@ -4,8 +4,10 @@ on:
   push:
     branches:
       - master
-  #schedule:
-  #  - cron: '0 0 1,5,10,15,20,25 * *'
+
+env:
+  PACKAGES_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  PACKAGES_USERNAME: ${{ github.actor }}
 
 jobs:
 
