@@ -1,4 +1,4 @@
-FROM ghcr.io/cyber-dojo-languages/rust:8f7ccdb
+FROM ghcr.io/cyber-dojo-languages/rust:8fa4106
 LABEL maintainer=jon@jaggersoft.com
 
 COPY red_amber_green.rb /usr/local/bin
